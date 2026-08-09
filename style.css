@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .top-section {
     display: flex;
     justify-content: space-between;
@@ -5,8 +7,8 @@
     
 }
 
-.left-section,
-.right-section {
+.top-left-section,
+.top-right-section {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -18,13 +20,33 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 12rem;
+    margin: 14rem;
 }
 
-#title {
-    width: 20rem;
-    height: 9rem;
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
+
+.bottom-left-section,
+.bottom-right-section {
+    display:flex;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+
+
+#title {
+    font-family: Roboto;
+    font-size: 4rem;
+    color: rgb(216, 146, 158);
+    width: 20rem;
+    height: 3rem;
+}
+  
 
 #profile-img {
    width: 2rem;
@@ -37,3 +59,4 @@ a {
     color: black;
 
 }
+
