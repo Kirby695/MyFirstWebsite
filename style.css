@@ -24,7 +24,7 @@ body {
 }
 
 .middle-section {
-    width: 60%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +33,7 @@ body {
     position: relative;
     backdrop-filter: blur(7rem);
     border-radius: 1rem;
+    border-width: 10%;
     border: 0.7rem solid rgba(115, 4, 143, 0.2);
     padding: 1rem;
     box-shadow: 1rem 1rem 1rem rgba(28, 1, 34, 0.5);
