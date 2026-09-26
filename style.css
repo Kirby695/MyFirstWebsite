@@ -99,15 +99,9 @@ a {
 }
 
 @media (max-width: 600px) {
-    .top-section,
-    .bottom-section {
-        flex-direction: column;
-    }
-
     .middle-section {
         flex-direction: column;
         text-align: center;
-        margin: 80px;
-        width: 100%;
+        width: 60%;
     }
 }
